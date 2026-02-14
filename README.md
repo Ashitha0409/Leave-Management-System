@@ -1,7 +1,10 @@
 # Simple Leave Management System
 
 A full-stack web application for managing employee leave requests. Built with React, Node.js, Express, and MongoDB.
-
+live application:https://leaveapp.duckdns.org
+demo credentials 
+Employee: demo@test.com  demo123
+Employer: admin@test.com admin123
 ## Features
 
 ### Employee
