@@ -1,0 +1,34 @@
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
+
+# Build
+dist/
+build/
+
+# Debug files
+backend/debug_mongo.js
+backend/debug_login.js
+backend/debug_output.txt
+backend/manual_seed.js
+backend/test_direct.js
+backend/seed.error
