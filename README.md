@@ -78,14 +78,4 @@ A full-stack web application for managing employee leave requests. Built with Re
 - `PUT /api/leaves/:id` - Update leave status (Employer)
 - `DELETE /api/leaves/:id` - Delete leave request (Employee)
 
-## deployment
 
-### Frontend (AWS S3)
-1. Build the frontend: `npm run build`
-2. Upload the `dist` folder contents to an S3 bucket configured for static website hosting.
-
-### Backend (AWS EC2)
-1. Launch an EC2 instance.
-2. Install Docker.
-3. Build the Docker image: `docker build -t leave-api .`
-4. Run the container: `docker run -p 5000:5000 -d leave-api`
